@@ -1,0 +1,180 @@
+/*cover Section*/
+.navbar {
+    background-color:#2e5ea0 ;
+    font-size: 13px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+}
+  .navbar li a, .navbar .navbar-brand {
+    color: #dbe3ee !important;
+}
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #2e5ea0 !important;
+    background-color: #f6f6f6 !important;
+}
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #f6f6f6 !important;
+}
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #e6c414;
+}
+.img-circle{
+    margin-top: -13px;
+    width: 90px;
+    height: 90px;
+}
+.jumbotron{
+    background: linear-gradient(rgba(15,78,200,0.2),rgba(15,78,200,0.2)),url(https://www.sosoxygene.com/wp-content/uploads/2017/12/bg-apnee.jpg);
+    background-color: #2e5ea0;
+    color:white;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(87, 83, 83, 0.5);
+}
+.jumbotron .campany-name{
+    font-family: 'Roboto', sans-serif;
+    font-size:72px;
+    text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.5);
+    
+}
+.jumbotron .campany-speciality{
+    font-family: 'Roboto', sans-serif;
+    font-size:32px;
+    text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.5);
+}
+.jumbotron p{
+    font-family: 'Exo', sans-serif;
+    color: #dbe3ee;
+    font-size: 18px;
+    font-style: italic;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.container-fluid{
+    padding: 60px 50px;
+}
+.cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -90px;
+}
+/*presentation Section*/
+.col-md-7 p,ul{
+    font-size: 18px;
+}
+.image, .image1{
+    width: 350px;
+    height: 200px;
+    border: 5px solid #bdb6b6da;
+}
+.image:hover, .image1:hover{
+    box-shadow: 3px 3px 3px rgba(167, 164, 164, 0.5);
+}
+.sous-titre1{
+    font-style: italic;
+    color: #e6c414;
+    text-decoration: underline;
+}
+.image1{
+    margin-top: 100px;
+}
+strong{
+    color: #e6c414;
+    letter-spacing: 1px;
+}
+strong:hover{
+    text-shadow: 1px 1px 1px rgba(167, 164, 164, 0.5);
+}
+/*service Section*/
+.Serv{
+    color: #2e5ea0;
+    font-size: 28px;
+}
+.more{
+    text-align: center;
+}
+.more:hover{
+    text-shadow: 3px 3px 3px rgba(167, 164, 164, 0.5);
+    font-size: 40px;
+}
+/*product Section*/
+.Parts{
+    text-align: center;
+    font-size: 48px;
+    color:#7ca7d3;
+    text-shadow: 2px 2px 2px rgba(167, 164, 164, 0.5);
+}
+.presentation-parts{
+    text-align: center;
+    font-style: italic;
+}
+.type-produit{
+    text-align: center;
+    font-size: 36px;
+    color: #2e5ea0;
+    padding: 20px;
+    text-shadow: 1px 1px 1px rgba(167, 164, 164, 0.5);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.panel{
+    border: 2px solid #e6c414; 
+    border: radius;
+    transition: box-shadow 0.5s;
+}
+.panel:hover{
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+    border: 1px solid #e6c414;
+    background-color: #fff !important;
+    color: #e6c414;
+}
+.panel-heading {
+    color: #fff !important;
+    background-color: #e6c414 !important;
+    padding: 20px;
+    border-bottom: 0px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer .btn {
+    margin: 10px 0;
+    background-color: #e6c414;
+    color: #fff;
+}
+/*contact Section*/
+.CONTACT{
+    text-align: center;
+    color: #2e5ea0;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(167, 164, 164, 0.5);
+    font-size: 45px;
+}
+.contactez-nous{
+    font-size: 20px;
+    color:#7ca7d3;
+    text-shadow: 1px 1px 1px rgba(167, 164, 164, 0.5);
+}
+.glyphicon{
+    color: #e6c414;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(167, 164, 164, 0.5);
+    padding: 9px;
+}
+.cont, .col-sm-4, .btn{
+    color:#8f9194;
+}
+/*index*/
+.button{
+    margin-left: 45%;
+    background-color: #7ca7d3;
+    color: #fff;
+}
